@@ -1,0 +1,45 @@
+﻿@page "/Search"
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+@if (showthis) 
+{
+<h1>Welcome to your new app.</h1>
+
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+}
+<div>
+    <input type="text" @bind-value="searchTerm" />
+    <button @onclick="Searchit">Search</button>
+    @if (searchResults != null && searchResults.Any())
+    {
+            @foreach (var result in searchResults)
+            {
+                <div class="bar">@result</div>
+            }
+    }
+</div>
+
+@code {
+    private bool showthis=false;
+    private string? searchTerm;
+    private List<string>? searchResults;
+
+    private 
+    
+    bool showTitle = false;
+    private void Searchit()
+    {
+        // Do the search here, and populate the searchResults list
+        searchResults = new List<string>()
+        {
+            "Result 1",
+            "Result 2",
+            "Result 3"
+        };
+    }
+}
