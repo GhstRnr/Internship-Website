@@ -13,6 +13,43 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": -1524393316,
+        "Kind": "Components.Component",
+        "Name": "app.Pages.FetchData",
+        "AssemblyName": "app",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "app.Pages.FetchData",
+          "Common.TypeNamespace": "app.Pages",
+          "Common.TypeNameIdentifier": "FetchData"
+        }
+      },
+      {
+        "HashCode": 1610281350,
+        "Kind": "Components.Component",
+        "Name": "app.Pages.FetchData",
+        "AssemblyName": "app",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "app.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "app.Pages.FetchData",
+          "Common.TypeNamespace": "app.Pages",
+          "Common.TypeNameIdentifier": "FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1573921048,
         "Kind": "Components.Component",
         "Name": "app.Pages.Search",
@@ -50,76 +87,76 @@
         }
       },
       {
-        "HashCode": 1499326683,
+        "HashCode": -57313750,
         "Kind": "Components.Component",
-        "Name": "app.Pages.Counter",
+        "Name": "app.Pages.Products",
         "AssemblyName": "app",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter"
+            "TagName": "Products"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "app.Pages.Counter",
+          "Common.TypeName": "app.Pages.Products",
           "Common.TypeNamespace": "app.Pages",
-          "Common.TypeNameIdentifier": "Counter"
+          "Common.TypeNameIdentifier": "Products"
         }
       },
       {
-        "HashCode": 1040034545,
+        "HashCode": -417534250,
         "Kind": "Components.Component",
-        "Name": "app.Pages.Counter",
+        "Name": "app.Pages.Products",
         "AssemblyName": "app",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "app.Pages.Counter"
+            "TagName": "app.Pages.Products"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "app.Pages.Counter",
+          "Common.TypeName": "app.Pages.Products",
           "Common.TypeNamespace": "app.Pages",
-          "Common.TypeNameIdentifier": "Counter",
+          "Common.TypeNameIdentifier": "Products",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -1524393316,
+        "HashCode": 500884104,
         "Kind": "Components.Component",
-        "Name": "app.Pages.FetchData",
+        "Name": "app.Pages.News",
         "AssemblyName": "app",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FetchData"
+            "TagName": "News"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "app.Pages.FetchData",
+          "Common.TypeName": "app.Pages.News",
           "Common.TypeNamespace": "app.Pages",
-          "Common.TypeNameIdentifier": "FetchData"
+          "Common.TypeNameIdentifier": "News"
         }
       },
       {
-        "HashCode": 1610281350,
+        "HashCode": 271021211,
         "Kind": "Components.Component",
-        "Name": "app.Pages.FetchData",
+        "Name": "app.Pages.News",
         "AssemblyName": "app",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "app.Pages.FetchData"
+            "TagName": "app.Pages.News"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "app.Pages.FetchData",
+          "Common.TypeName": "app.Pages.News",
           "Common.TypeNamespace": "app.Pages",
-          "Common.TypeNameIdentifier": "FetchData",
+          "Common.TypeNameIdentifier": "News",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -19122,8 +19159,8 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\user\\Internship\\github\\Internship-Website\\app\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
+      "FilePath": "c:\\Users\\user\\Internship\\github\\Internship-Website\\app\\Pages\\Products.razor",
+      "TargetPath": "Pages\\Products.razor",
       "FileKind": "component"
     },
     {
@@ -19155,6 +19192,11 @@
       "FilePath": "c:\\Users\\user\\Internship\\github\\Internship-Website\\app\\Pages\\HomeButton.cshtml",
       "TargetPath": "Pages\\HomeButton.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\user\\Internship\\github\\Internship-Website\\app\\Pages\\News.razor",
+      "TargetPath": "Pages\\News.razor",
+      "FileKind": "component"
     },
     {
       "FilePath": "c:\\Users\\user\\Internship\\github\\Internship-Website\\app\\Pages\\_Host.cshtml",
