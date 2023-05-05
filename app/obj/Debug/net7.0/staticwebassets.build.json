@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Phi/ogmy3HU6IxxuLEZdUo1ZOWkeNWGHXXUVvWeFB4w=",
+  "Hash": "PSynKHF+A3d5WWfRyHGXW7Gmmm+SkuSivEW6attA6Ro=",
   "Source": "app",
   "BasePath": "_content/app",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "app\\wwwroot",
       "Source": "app",
-      "ContentRoot": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\user\\Internship\\new\\app\\obj\\Debug\\net7.0\\scopedcss\\bundle\\app.styles.css",
+      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\obj\\Debug\\net7.0\\scopedcss\\bundle\\app.styles.css",
       "SourceId": "app",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\user\\Internship\\new\\app\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/app",
       "RelativePath": "app.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\user\\Internship\\new\\app\\obj\\Debug\\net7.0\\scopedcss\\bundle\\app.styles.css"
+      "OriginalItemSpec": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\obj\\Debug\\net7.0\\scopedcss\\bundle\\app.styles.css"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\new\\app\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\app.bundle.scp.css",
+      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\app.bundle.scp.css",
       "SourceId": "app",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\user\\Internship\\new\\app\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/app",
       "RelativePath": "app.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\user\\Internship\\new\\app\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\app.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\app.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\site.css",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\favicon.png",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\new\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -270,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\Welcome.png",
+      "SourceId": "app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "BasePath": "_content/app",
+      "RelativePath": "Welcome.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Welcome.png"
     }
   ]
 }
