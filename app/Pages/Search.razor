@@ -6,11 +6,14 @@
 
 @if (showthis) 
 {
+</body>
+
 <div class="w3-container">
   <h2>Wider Text</h2>
   <p>The w3-wide class specifies a wider text.</p>
   <p class="w3-wide">The w3-wide class specifies a wider text.</p>
 </div>
+</body>
 
 <h1>Welcome to your new app.</h1>
 
@@ -40,12 +43,24 @@
     bool showTitle = false;
     private void Searchit()
     {
-        // Do the search here, and populate the searchResults list
+        
         searchResults = new List<string>()
         {
             "Result 1",
             "Result 2",
             "Result 3"
         };
+
+
+        if (searchTerm=="ipod"){
+            searchResults = new List<string>()
+                    {
+                        "Model 1",
+                        "Model 2",
+                        "Model 3"
+                    };
+        }
+        
+        // Do the search here, and populate the searchResults list
     }
 }

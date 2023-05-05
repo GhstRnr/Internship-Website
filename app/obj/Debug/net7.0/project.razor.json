@@ -50,43 +50,6 @@
         }
       },
       {
-        "HashCode": -1573921048,
-        "Kind": "Components.Component",
-        "Name": "app.Pages.Search",
-        "AssemblyName": "app",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Search"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "app.Pages.Search",
-          "Common.TypeNamespace": "app.Pages",
-          "Common.TypeNameIdentifier": "Search"
-        }
-      },
-      {
-        "HashCode": -171714610,
-        "Kind": "Components.Component",
-        "Name": "app.Pages.Search",
-        "AssemblyName": "app",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "app.Pages.Search"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "app.Pages.Search",
-          "Common.TypeNamespace": "app.Pages",
-          "Common.TypeNameIdentifier": "Search",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -57313750,
         "Kind": "Components.Component",
         "Name": "app.Pages.Products",
@@ -194,6 +157,43 @@
           "Common.TypeName": "app.Pages.Index",
           "Common.TypeNamespace": "app.Pages",
           "Common.TypeNameIdentifier": "Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1573921048,
+        "Kind": "Components.Component",
+        "Name": "app.Pages.Search",
+        "AssemblyName": "app",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Search"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "app.Pages.Search",
+          "Common.TypeNamespace": "app.Pages",
+          "Common.TypeNameIdentifier": "Search"
+        }
+      },
+      {
+        "HashCode": -171714610,
+        "Kind": "Components.Component",
+        "Name": "app.Pages.Search",
+        "AssemblyName": "app",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "app.Pages.Search"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "app.Pages.Search",
+          "Common.TypeNamespace": "app.Pages",
+          "Common.TypeNameIdentifier": "Search",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
