@@ -35,10 +35,16 @@ justify-content:center;
 }
 
 .bar[b-g1nc6x9p1u] {
- background-color: aqua;
-  font-size:30px;
+ background-color: rgb(255, 255, 255);
+ border: 1px solid black;
+ font-size:30px;
  padding: 30px;
  margin: 10px;
+ display: flex;
+}
+
+.jeb[b-g1nc6x9p1u] {
+margin-left: 80px;
 }
 /* _content/app/Shared/MainLayout.razor.rz.scp.css */
 .page[b-14g41q3j72] {

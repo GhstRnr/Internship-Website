@@ -1,0 +1,23 @@
+{
+    "data": [
+        {
+            "Title": "Ipod 32GB",
+            "Description":"Small portable hand held music player",
+            "Price": "$309.99",
+            "Thumbnail": "https://m.media-amazon.com/images/I/61h6T-ftWsL._AC_UY218_.jpg"
+        },
+        {
+            "Title": "Ipod 64GB",
+            "Description":"Small portable hand held music player",
+            "Price": "$409.99",
+            "Thumbnail": "https://m.media-amazon.com/images/I/61h6T-ftWsL._AC_UY218_.jpg"
+        },
+        {
+            "Title": "Ipod 128GB",
+            "Description":"Small portable hand held music player",
+            "Price": "$499.99",
+            "Thumbnail": "https://m.media-amazon.com/images/I/61h6T-ftWsL._AC_UY218_.jpg"
+        }
+
+    ]
+}

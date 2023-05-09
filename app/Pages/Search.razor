@@ -1,8 +1,9 @@
 ﻿@page "/Search"
+@using app.Data
 
 <PageTitle>Index</PageTitle>
 
-<h1>Hello, world!</h1>
+<h1>Results</h1>
 
 @if (showthis) 
 {
@@ -28,7 +29,14 @@
     {
             @foreach (var result in searchResults)
             {
-                <div class="bar">@result</div>
+                <div class="bar">
+                <img src="@result.Thumbnail" height="200px"> 
+                <div class="jeb">
+                <p>@result.Title</p>
+                <p>@result.Price</p>
+                <p>@result.Description</p>
+                </div>
+                </div> 
             }
     }
 </div>
@@ -36,30 +44,20 @@
 @code {
     private bool showthis=false;
     private string? searchTerm;
-    private List<string>? searchResults;
+    private List<SearchResult>? searchResults;
 
     private 
     
     bool showTitle = false;
     private void Searchit()
     {
-        
-        searchResults = new List<string>()
+        searchResults = new List<SearchResult>()
         {
-            "Result 1",
-            "Result 2",
-            "Result 3"
+            new() {Title="iPod 64GB", Price="$249.99", Description="The iPod is a pocket-sized portable music-playing device produced by Apple and sold across the world. It's the best-known family of MP3 players ",Thumbnail="https://m.media-amazon.com/images/I/41+6wshUjVS._AC_UY436_FMwebp_QL65_.jpg"},
+            new() {Title="iPod 128GB", Price="$299.99", Description="The iPod is a pocket-sized portable music-playing device produced by Apple and sold across the world. It's the best-known family of MP3 players ",Thumbnail="https://m.media-amazon.com/images/I/41+6wshUjVS._AC_UY436_FMwebp_QL65_.jpg"},
+            new() {Title="iPod 256GB", Price="$349.99", Description="The iPod is a pocket-sized portable music-playing device produced by Apple and sold across the world. It's the best-known family of MP3 players ",Thumbnail="https://m.media-amazon.com/images/I/41+6wshUjVS._AC_UY436_FMwebp_QL65_.jpg"}
         };
 
-
-        if (searchTerm=="ipod"){
-            searchResults = new List<string>()
-                    {
-                        "Model 1",
-                        "Model 2",
-                        "Model 3"
-                    };
-        }
         
         // Do the search here, and populate the searchResults list
     }
