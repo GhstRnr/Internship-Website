@@ -6,10 +6,23 @@ using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
+using System.Collections.Generic;
 using Newtonsoft.Json;
 
 namespace api
 {
+
+    public class SearchResult
+    {
+        public String? Title { get; set; }
+
+        public String? Price { get; set; }
+
+        public String? Description { get; set; }
+
+        public String? Thumbnail { get; set; }
+    }
+
     public static class drp
     {
         [FunctionName("drp")]
@@ -19,17 +32,15 @@ namespace api
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
 
-            string name = req.Query["name"];
+            var searchResults = new List<SearchResult>()
+            {
+                new() {Title="iPod 64GB", Price="$249.99", Description="The iPod is a pocket-sized portable music-playing device produced by Apple and sold across the world. It's the best-known family of MP3 players ",Thumbnail="https://m.media-amazon.com/images/I/41+6wshUjVS._AC_UY436_FMwebp_QL65_.jpg"},
+                new() {Title="iPod 128GB", Price="$299.99", Description="The iPod is a pocket-sized portable music-playing device produced by Apple and sold across the world. It's the best-known family of MP3 players ",Thumbnail="https://m.media-amazon.com/images/I/41+6wshUjVS._AC_UY436_FMwebp_QL65_.jpg"},
+                new() {Title="iPod 256GB", Price="$349.99", Description="The iPod is a pocket-sized portable music-playing device produced by Apple and sold across the world. It's the best-known family of MP3 players ",Thumbnail="https://m.media-amazon.com/images/I/41+6wshUjVS._AC_UY436_FMwebp_QL65_.jpg"}
+            };
 
-            string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
-            dynamic data = JsonConvert.DeserializeObject(requestBody);
-            name = name ?? data?.name;
 
-            string responseMessage = string.IsNullOrEmpty(name)
-                ? "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
-                : $"Testywhsu, {name}. This HTTP triggered function executed successfully.";
-
-            return new OkObjectResult(responseMessage);
+            return new JsonResult(searchResults);
         }
     }
 }
