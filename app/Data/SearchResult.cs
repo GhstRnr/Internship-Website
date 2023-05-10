@@ -2,11 +2,11 @@ namespace app.Data;
 
 public class SearchResult
 {
-    public String? Title { get; set; }
+    public String? title { get; set; }
 
-    public String? Price { get; set; }
+    public String? price { get; set; }
 
-    public String? Description {get; set; }
+    public String? description {get; set; }
 
-    public String? Thumbnail  { get; set; }
+    public String? thumbnail  { get; set; }
 }

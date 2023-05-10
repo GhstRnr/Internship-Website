@@ -1,5 +1,7 @@
 ﻿@page "/Search"
 @using app.Data
+@using System.Net.Http;
+@using System.Text.Json;
 
 <PageTitle>Index</PageTitle>
 
@@ -30,11 +32,11 @@
             @foreach (var result in searchResults)
             {
                 <div class="bar">
-                <img src="@result.Thumbnail" height="200px"> 
+                <img src="@result.thumbnail" height="200px"> 
                 <div class="jeb">
-                <p>@result.Title</p>
-                <p>@result.Price</p>
-                <p>@result.Description</p>
+                <p>@result.title</p>
+                <p>@result.price</p>
+                <p>@result.description</p>
                 </div>
                 </div> 
             }
@@ -49,16 +51,36 @@
     private 
     
     bool showTitle = false;
-    private void Searchit()
+    private async void Searchit()
     {
-        searchResults = new List<SearchResult>()
+        /* searchResults = new List<SearchResult>()
         {
             new() {Title="iPod 64GB", Price="$249.99", Description="The iPod is a pocket-sized portable music-playing device produced by Apple and sold across the world. It's the best-known family of MP3 players ",Thumbnail="https://m.media-amazon.com/images/I/41+6wshUjVS._AC_UY436_FMwebp_QL65_.jpg"},
             new() {Title="iPod 128GB", Price="$299.99", Description="The iPod is a pocket-sized portable music-playing device produced by Apple and sold across the world. It's the best-known family of MP3 players ",Thumbnail="https://m.media-amazon.com/images/I/41+6wshUjVS._AC_UY436_FMwebp_QL65_.jpg"},
             new() {Title="iPod 256GB", Price="$349.99", Description="The iPod is a pocket-sized portable music-playing device produced by Apple and sold across the world. It's the best-known family of MP3 players ",Thumbnail="https://m.media-amazon.com/images/I/41+6wshUjVS._AC_UY436_FMwebp_QL65_.jpg"}
         };
+         */
 
+        HttpClient client = new();
+        string  url="https://crust.azurewebsites.net/api/drp";
+
+        client.DefaultRequestHeaders.Add("X-Functions-Key", "QsoctEMKv4g7iHTxhGsRNTxHKeP_NKv3QHeFIyZOki8FAzFu2hJtLA==");
+        var request = new HttpRequestMessage(HttpMethod.Get, new Uri(url));
+
+        var response =  client.Send(request);
         
-        // Do the search here, and populate the searchResults list
+        if (response.IsSuccessStatusCode) {
+            var content = await response.Content.ReadAsByteArrayAsync();
+
+            string contentS = System.Text.Encoding.Default.GetString(content);
+Console.WriteLine ($" Got line: {contentS}");
+            searchResults = JsonSerializer.Deserialize<List<SearchResult>>(contentS);
+
+            foreach ( var s in searchResults) {
+                Console.WriteLine ( s.title );
+            }
+        }
+    }
+        
     }
 }
