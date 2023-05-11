@@ -62,7 +62,9 @@
          */
 
         HttpClient client = new();
-        string  url="https://crust.azurewebsites.net/api/drp";
+        string  url="https://crust.azurewebsites.net/api/drp/ipod";
+
+     //   url="http://localhost:7071/api/drp/ipod";
 
         client.DefaultRequestHeaders.Add("X-Functions-Key", "QsoctEMKv4g7iHTxhGsRNTxHKeP_NKv3QHeFIyZOki8FAzFu2hJtLA==");
         var request = new HttpRequestMessage(HttpMethod.Get, new Uri(url));
