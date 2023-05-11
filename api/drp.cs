@@ -27,20 +27,18 @@ namespace api
     {
         [FunctionName("drp")]
         public static async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
+            [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = "drp/{term}")] HttpRequest req,
+            [CosmosDB(
+                    databaseName: "autumn",
+                    containerName: "cluster",
+                    SqlQuery = "SELECT * FROM c",
+                    Connection= "DBConnection")] IEnumerable<SearchResult> terms,
+                    string term,
             ILogger log)
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
 
-            var searchResults = new List<SearchResult>()
-            {
-                new() {Title="iPod 64GB", Price="$249.99", Description="The iPod is a pocket-sized portable music-playing device produced by Apple and sold across the world. It's the best-known family of MP3 players ",Thumbnail="https://m.media-amazon.com/images/I/41+6wshUjVS._AC_UY436_FMwebp_QL65_.jpg"},
-                new() {Title="iPod 128GB", Price="$299.99", Description="The iPod is a pocket-sized portable music-playing device produced by Apple and sold across the world. It's the best-known family of MP3 players ",Thumbnail="https://m.media-amazon.com/images/I/41+6wshUjVS._AC_UY436_FMwebp_QL65_.jpg"},
-                new() {Title="iPod 256GB", Price="$349.99", Description="The iPod is a pocket-sized portable music-playing device produced by Apple and sold across the world. It's the best-known family of MP3 players ",Thumbnail="https://m.media-amazon.com/images/I/41+6wshUjVS._AC_UY436_FMwebp_QL65_.jpg"}
-            };
-
-
-            return new JsonResult(searchResults);
+            return new JsonResult(terms);
         }
     }
 }
