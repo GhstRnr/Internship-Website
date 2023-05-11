@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using Newtonsoft.Json;
+using System.Linq;
 
 namespace api
 {
@@ -21,6 +22,8 @@ namespace api
         public String? Description { get; set; }
 
         public String? Thumbnail { get; set; }
+
+        public String? terms { get; set; }
     }
 
     public static class drp
@@ -35,10 +38,10 @@ namespace api
                     Connection= "DBConnection")] IEnumerable<SearchResult> terms,
                     string term,
             ILogger log)
-        {
+        { 
             log.LogInformation("C# HTTP trigger function processed a request.");
 
-            return new JsonResult(terms);
+            return new JsonResult(terms.Where(result => result.terms?.Contains(term) == true));
         }
     }
 }
