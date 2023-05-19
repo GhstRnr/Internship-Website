@@ -202,6 +202,12 @@ main[b-14g41q3j72] {
     color: white;
 }
 
+.expanded[b-vl3c23brav] {
+    position: absolute;
+    left: 190px;
+    top: 54px;
+}
+
 @media (min-width: 641px) {
     .navbar-toggler[b-vl3c23brav] {
         display: none;
@@ -209,7 +215,7 @@ main[b-14g41q3j72] {
 
     .collapse[b-vl3c23brav] {
         /* Never collapse the sidebar for wide screens */
-        display: block;
+        display: none;
     }
     
     .nav-scrollable[b-vl3c23brav] {

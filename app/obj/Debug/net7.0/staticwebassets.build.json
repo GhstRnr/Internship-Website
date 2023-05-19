@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1JWSnonFUS1lR5YfpUPAe46AveEpAqtEYEwanwfy5Kc=",
+  "Hash": "9V1hVEJnuq9nCxV5I9yJT/0GIb/zNcvMC8l4J9fL5d8=",
   "Source": "app",
   "BasePath": "_content/app",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "app\\wwwroot",
       "Source": "app",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\obj\\Debug\\net7.0\\scopedcss\\bundle\\app.styles.css",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\obj\\Debug\\net7.0\\scopedcss\\bundle\\app.styles.css",
       "SourceId": "app",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/app",
       "RelativePath": "app.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\obj\\Debug\\net7.0\\scopedcss\\bundle\\app.styles.css"
+      "OriginalItemSpec": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\obj\\Debug\\net7.0\\scopedcss\\bundle\\app.styles.css"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\app.bundle.scp.css",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\app.bundle.scp.css",
       "SourceId": "app",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/app",
       "RelativePath": "app.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,30 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\app.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\app.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\click.mp3",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\3LineIcon.png",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
+      "BasePath": "_content/app",
+      "RelativePath": "3LineIcon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\3LineIcon.png"
+    },
+    {
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\click.mp3",
+      "SourceId": "app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "click.mp3",
       "AssetKind": "All",
@@ -68,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\click.mp3"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -85,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -102,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -119,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -136,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -153,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -170,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -187,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -204,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -221,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -238,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -255,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\css\\site.css",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -272,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\Dada.mp3",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\Dada.mp3",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "Dada.mp3",
       "AssetKind": "All",
@@ -289,10 +306,78 @@
       "OriginalItemSpec": "wwwroot\\Dada.mp3"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\drip.jpg",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
+      "BasePath": "_content/app",
+      "RelativePath": "drip.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\drip.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\drip.webp",
+      "SourceId": "app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
+      "BasePath": "_content/app",
+      "RelativePath": "drip.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\drip.webp"
+    },
+    {
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\drip2.jpg",
+      "SourceId": "app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
+      "BasePath": "_content/app",
+      "RelativePath": "drip2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\drip2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\drip3.jpg",
+      "SourceId": "app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
+      "BasePath": "_content/app",
+      "RelativePath": "drip3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\drip3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\favicon.png",
+      "SourceId": "app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -306,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\horse.ogv",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\horse.ogv",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "horse.ogv",
       "AssetKind": "All",
@@ -323,10 +408,27 @@
       "OriginalItemSpec": "wwwroot\\horse.ogv"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\myfunc.js",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\menuIcon.jpg",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
+      "BasePath": "_content/app",
+      "RelativePath": "menuIcon.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\menuIcon.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\myfunc.js",
+      "SourceId": "app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "myfunc.js",
       "AssetKind": "All",
@@ -340,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\myfunc.js"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\NintendoMusic.mp3",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\NintendoMusic.mp3",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "NintendoMusic.mp3",
       "AssetKind": "All",
@@ -357,10 +459,27 @@
       "OriginalItemSpec": "wwwroot\\NintendoMusic.mp3"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\PTA.mp3",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\OIP.jpg",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
+      "BasePath": "_content/app",
+      "RelativePath": "OIP.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\OIP.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\PTA.mp3",
+      "SourceId": "app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "PTA.mp3",
       "AssetKind": "All",
@@ -374,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\PTA.mp3"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\ShopClick.mp3",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\ShopClick.mp3",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "ShopClick.mp3",
       "AssetKind": "All",
@@ -391,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\ShopClick.mp3"
     },
     {
-      "Identity": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\Welcome.png",
+      "Identity": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\Welcome.png",
       "SourceId": "app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\nmishr\\luk\\Internship-Website\\app\\wwwroot\\",
       "BasePath": "_content/app",
       "RelativePath": "Welcome.png",
       "AssetKind": "All",

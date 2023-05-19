@@ -2,7 +2,7 @@
 @using System.Text.Json;
 
 <div class="top-row ps-3 navbar navbar-dark">
-    <img height="48" src= "https://lvminternshipwebsite.blob.core.windows.net/img/3LineIcon.png"/>
+    <img height="48" src= "https://lvminternshipwebsite.blob.core.windows.net/img/3LineIcon.png" @onclick="ToggleNavMenu"/>
     <nav class="luk-item" >
         <div>
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
@@ -38,14 +38,15 @@
     </div>
 </div>
 
-<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+ <img src="drip4.png" />
 </div>
 
 @code {
     private bool collapseNavMenu = true;
     private List<string>? categories;
 
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : "expanded";
 
     private void ToggleNavMenu()
     {

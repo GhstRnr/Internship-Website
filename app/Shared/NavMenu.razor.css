@@ -60,6 +60,12 @@
     color: white;
 }
 
+.expanded {
+    position: absolute;
+    left: 190px;
+    top: 54px;
+}
+
 @media (min-width: 641px) {
     .navbar-toggler {
         display: none;
@@ -67,7 +73,7 @@
 
     .collapse {
         /* Never collapse the sidebar for wide screens */
-        display: block;
+        display: none;
     }
     
     .nav-scrollable {
