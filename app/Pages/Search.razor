@@ -24,24 +24,52 @@
 <SurveyPrompt Title="How is Blazor working for you?" />
 
 }
-<div>
-    <input type="text" @bind-value="searchTerm" />
-    <button @onclick="Searchit">Search</button>
+<div onclick="document.getElementById('ClickPlay').play()">
+    <input type="text" @bind-value="searchTerm" /> 
+    <audio id="ClickPlay" src="click.mp3" />
+    <button id="SearchButton"  @onclick="Searchit" >Search</button> 
+
+    <div class="searchContainer" >
+
     @if (searchResults != null && searchResults.Any())
     {
-            @foreach (var result in searchResults)
-            {
-                <div class="bar">
-                <img src="@result.thumbnail" height="200px"> 
-                <div class="jeb">
-                <p>@result.title</p>
-                <p>@result.price</p>
-                <p>@result.description</p>
-                </div>
-                </div> 
-            }
+      int i=0;
+      @foreach (var result in searchResults)
+      {
+        i++;
+
+        <div id="Result-@i" class="bar" onclick="document.getElementById('Result-@i').className='highlight'">
+          <img src="@result.thumbnail" height="200px"> 
+          <div class="jeb">
+            <p onclick="test1('result-@i')">@result.title</p>
+            <p>@result.price</p>
+            <p>@result.description</p>
+          </div>
+        </div> 
+      }
     }
+    </div>
 </div>
+
+<!--
+<script>
+  // Get the reference to the button and audio element
+  var playButton = document.getElementById('playButton');
+  var audio = new Audio('/path/to/your/audio/file.mp3');
+
+  // Define the button click event handler
+  playButton.addEventListener('click', function() {
+    if (audio.paused) {
+      audio.play();
+      playButton.innerHTML = 'Pause Music';
+    } else {
+      audio.pause();
+      playButton.innerHTML = 'Play Music';
+    }
+  });
+</script>
+
+-->
 
 @code {
     private bool showthis=false;
@@ -62,7 +90,7 @@
          */
 
         HttpClient client = new();
-        string  url="https://crust.azurewebsites.net/api/drp/ipod";
+        string  url=$"https://crust.azurewebsites.net/api/drp/{searchTerm}";
 
      //   url="http://localhost:7071/api/drp/ipod";
 
@@ -85,4 +113,3 @@ Console.WriteLine ($" Got line: {contentS}");
     }
         
     }
-}

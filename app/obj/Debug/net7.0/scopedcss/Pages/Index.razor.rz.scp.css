@@ -9,9 +9,14 @@ justify-content:center;
 }
 
 .welcomeimg[b-1jlyl90bcz] {
-    background-image: url("/welcome.png");
+    background-image: url("https://lvminternshipwebsite.blob.core.windows.net/img/posterVA.png");
     background-repeat: no-repeat;
     background-size: cover; /* or contain, or specific values */
-    height: 420px
+    height: 650px
 }
       
+.container[b-1jlyl90bcz] {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}

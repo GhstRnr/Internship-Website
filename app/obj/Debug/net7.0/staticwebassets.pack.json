@@ -5,8 +5,28 @@
       "PackagePath": "staticwebassets\\app.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\Dada.mp3",
+      "PackagePath": "staticwebassets\\Dada.mp3"
+    },
+    {
+      "Id": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\NintendoMusic.mp3",
+      "PackagePath": "staticwebassets\\NintendoMusic.mp3"
+    },
+    {
+      "Id": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\PTA.mp3",
+      "PackagePath": "staticwebassets\\PTA.mp3"
+    },
+    {
+      "Id": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\ShopClick.mp3",
+      "PackagePath": "staticwebassets\\ShopClick.mp3"
+    },
+    {
       "Id": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\Welcome.png",
       "PackagePath": "staticwebassets\\Welcome.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\click.mp3",
+      "PackagePath": "staticwebassets\\click.mp3"
     },
     {
       "Id": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
@@ -59,6 +79,14 @@
     {
       "Id": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\horse.ogv",
+      "PackagePath": "staticwebassets\\horse.ogv"
+    },
+    {
+      "Id": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\myfunc.js",
+      "PackagePath": "staticwebassets\\myfunc.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.app.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -10,12 +10,18 @@ justify-content:center;
 }
 
 .welcomeimg[b-1jlyl90bcz] {
-    background-image: url("/welcome.png");
+    background-image: url("https://lvminternshipwebsite.blob.core.windows.net/img/posterVA.png");
     background-repeat: no-repeat;
     background-size: cover; /* or contain, or specific values */
-    height: 420px
+    height: 650px
 }
       
+.container[b-1jlyl90bcz] {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+/* _content/app/Pages/Products.razor.rz.scp.css */
 /* _content/app/Pages/Search.razor.rz.scp.css */
 .foo[b-g1nc6x9p1u] {
  background-color: antiquewhite;
@@ -36,7 +42,7 @@ justify-content:center;
 
 .bar[b-g1nc6x9p1u] {
  background-color: rgb(255, 255, 255);
- border: 1px solid black;
+ border: 1px solid #3a0647;
  font-size:30px;
  padding: 30px;
  margin: 10px;
@@ -45,6 +51,22 @@ justify-content:center;
 
 .jeb[b-g1nc6x9p1u] {
 margin-left: 80px;
+}
+
+.highlight[b-g1nc6x9p1u] {
+    background-color: rgb(255, 255, 255);
+    border: .5px solid #000000;
+    order: -1;
+    size: 20px;
+    font-size:30px;
+    padding: 30px;
+    margin: 10px;
+    display: flex;
+   }
+
+.searchContainer[b-g1nc6x9p1u]{
+    display: flex;
+    flex-direction: column;
 }
 /* _content/app/Shared/MainLayout.razor.rz.scp.css */
 .page[b-14g41q3j72] {
@@ -58,7 +80,7 @@ main[b-14g41q3j72] {
 }
 
 .sidebar[b-14g41q3j72] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-image: linear-gradient(180deg, rgb(39, 115, 255) 0%, #e58918 70%);
 }
 
 .top-row[b-14g41q3j72] {

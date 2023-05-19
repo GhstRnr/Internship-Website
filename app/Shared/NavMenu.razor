@@ -1,4 +1,8 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿@using System.Net.Http;
+@using System.Text.Json;
+
+<div class="top-row ps-3 navbar navbar-dark">
+    <img height="48" src= "https://lvminternshipwebsite.blob.core.windows.net/img/3LineIcon.png"/>
     <nav class="luk-item" >
         <div>
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
@@ -39,11 +43,30 @@
 
 @code {
     private bool collapseNavMenu = true;
+    private List<string>? categories;
 
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
+    }
+
+
+    private async void Searchit()
+    {
+        HttpClient client = new();
+        string  url=$"https://crust.azurewebsites.net/api/categories";
+
+        client.DefaultRequestHeaders.Add("X-Functions-Key", "QsoctEMKv4g7iHTxhGsRNTxHKeP_NKv3QHeFIyZOki8FAzFu2hJtLA==");
+        var request = new HttpRequestMessage(HttpMethod.Get, new Uri(url));
+
+        var response =  client.Send(request);        
+        if (response.IsSuccessStatusCode) {
+            var content = await response.Content.ReadAsByteArrayAsync();
+
+            string contentS = System.Text.Encoding.Default.GetString(content);
+            categories = JsonSerializer.Deserialize<List<String>>(contentS);
+        }
     }
 }

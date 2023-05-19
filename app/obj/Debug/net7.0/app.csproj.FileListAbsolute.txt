@@ -67,3 +67,4 @@ C:\Users\user\Internship\github\Internship-Website\app\obj\Debug\net7.0\app.pdb
 C:\Users\user\Internship\github\Internship-Website\app\obj\Debug\net7.0\app.genruntimeconfig.cache
 C:\Users\user\Internship\github\Internship-Website\app\obj\Debug\net7.0\ref\app.dll
 C:\Users\user\Internship\github\Internship-Website\app\bin\Debug\net7.0\test.json
+C:\Users\user\Internship\github\Internship-Website\app\obj\Debug\net7.0\scopedcss\Pages\Products.razor.rz.scp.css

@@ -9,9 +9,14 @@ justify-content:center;
 }
 
 .welcomeimg {
-    background-image: url("/welcome.png");
+    background-image: url("https://lvminternshipwebsite.blob.core.windows.net/img/posterVA.png");
     background-repeat: no-repeat;
     background-size: cover; /* or contain, or specific values */
-    height: 420px
+    height: 650px
 }
       
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}

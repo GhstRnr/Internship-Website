@@ -17,7 +17,7 @@ justify-content:center;
 
 .bar {
  background-color: rgb(255, 255, 255);
- border: 1px solid black;
+ border: 1px solid #3a0647;
  font-size:30px;
  padding: 30px;
  margin: 10px;
@@ -26,4 +26,20 @@ justify-content:center;
 
 .jeb {
 margin-left: 80px;
+}
+
+.highlight {
+    background-color: rgb(255, 255, 255);
+    border: .5px solid #000000;
+    order: -1;
+    size: 20px;
+    font-size:30px;
+    padding: 30px;
+    margin: 10px;
+    display: flex;
+   }
+
+.searchContainer{
+    display: flex;
+    flex-direction: column;
 }
