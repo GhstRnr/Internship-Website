@@ -12,22 +12,21 @@ using System.Linq;
 
 namespace api
 {
-    public static class drp
+    public static class newprod
     {
-        [FunctionName("drp")]
+        [FunctionName("newprod")]
         public static async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = "drp/{term}")] HttpRequest req,
+            [HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req,
             [CosmosDB(
                     databaseName: "autumn",
                     containerName: "cluster",
-                    SqlQuery = "SELECT * FROM c",
+                    SqlQuery = "SELECT * FROM c ",
                     Connection= "DBConnection")] IEnumerable<SearchResult> terms,
-                    string term,
             ILogger log)
         { 
             log.LogInformation("C# HTTP trigger function processed a request.");
 
-            return new JsonResult(terms.Where(result => result.terms?.Contains(term) == true));
+            return new JsonResult(terms.Where(result => result.categories?.Contains("New") == true));
         }
     }
 }
