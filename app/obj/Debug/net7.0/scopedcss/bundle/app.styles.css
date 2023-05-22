@@ -10,9 +10,10 @@ justify-content:center;
 }
 
 .welcomeimg[b-1jlyl90bcz] {
-    background-image: url("https://lvminternshipwebsite.blob.core.windows.net/img/posterVA.png");
-    background-repeat: no-repeat;
+    background-image: url("https://lvminternshipwebsite.blob.core.windows.net/img/VAposter2.0.png");
+    background-repeat: repeat;
     background-size: contain; /* or contain, or specific values */
+    border: 4mm ridge gray;
     height: 365px
 }
       
@@ -42,7 +43,7 @@ justify-content:center;
 
 .bar[b-g1nc6x9p1u] {
  background-color: rgb(255, 255, 255);
- border: 1px solid #3a0647;
+ border: 1px solid black;
  font-size:30px;
  padding: 30px;
  margin: 10px;
@@ -57,6 +58,7 @@ margin-left: 80px;
     background-color: rgb(255, 255, 255);
     border: .5px solid #000000;
     order: -1;
+    height: 20px;
     size: 20px;
     font-size:30px;
     padding: 30px;
@@ -84,11 +86,11 @@ main[b-14g41q3j72] {
 }
 
 .top-row[b-14g41q3j72] {
-    background-color: #f7f7f7;
-    border-bottom: 1px solid #d6d5d5;
+    background-color: #d0f009;
+    border-bottom: 1px solid #D0f009;
     justify-content: flex-end;
     height: 3.5rem;
-    display: flex;
+    display: grid;
     align-items: center;
 }
 
@@ -148,7 +150,7 @@ main[b-14g41q3j72] {
 
 .top-row[b-vl3c23brav] {
     height: 3.5rem;
-    background-color: rgb(#353535);
+    background-color: rgb(#d0f009);
 }
 
 .navbar-brand[b-vl3c23brav] {
@@ -185,7 +187,7 @@ main[b-14g41q3j72] {
     }
 
     .nav-item[b-vl3c23brav]  a {
-        color: #8299e5;
+        color: rgb(gray);
         border-radius: 4px;
         height: 3rem;
         display: flex;
@@ -210,6 +212,20 @@ main[b-14g41q3j72] {
     left: 0px;
     top: 0px;
 }
+
+.drop[b-vl3c23brav] {
+    background-image: url("drip8.png");
+    color: gray;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 55px;
+    width: 810px;
+    height: 420px;
+    padding-left: 50px;
+    padding-top: 70px;
+}
+
+
 
 .luknavbar[b-vl3c23brav] {
     position: absolute;

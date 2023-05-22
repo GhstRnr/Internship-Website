@@ -4,7 +4,7 @@
 
 .top-row[b-vl3c23brav] {
     height: 3.5rem;
-    background-color: rgb(rgb(#353535));
+    background-color: rgb(#d0f009);
 }
 
 .navbar-brand[b-vl3c23brav] {
@@ -41,7 +41,7 @@
     }
 
     .nav-item[b-vl3c23brav]  a {
-        color: #8299e5;
+        color: rgb(gray);
         border-radius: 4px;
         height: 3rem;
         display: flex;
@@ -51,7 +51,7 @@
     }
 
 .nav-item[b-vl3c23brav]  a.active {
-    background-color: rgb(#353535);
+    background-color: rgba(255,255,255,0.25);
     color: white;
 }
 
@@ -66,6 +66,20 @@
     left: 0px;
     top: 0px;
 }
+
+.drop[b-vl3c23brav] {
+    background-image: url("drip8.png");
+    color: gray;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 55px;
+    width: 810px;
+    height: 420px;
+    padding-left: 50px;
+    padding-top: 70px;
+}
+
+
 
 .luknavbar[b-vl3c23brav] {
     position: absolute;

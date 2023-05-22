@@ -105,6 +105,22 @@
       "PackagePath": "staticwebassets\\drip4.png"
     },
     {
+      "Id": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\drip5.png",
+      "PackagePath": "staticwebassets\\drip5.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\drip6.png",
+      "PackagePath": "staticwebassets\\drip6.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\drip7.png",
+      "PackagePath": "staticwebassets\\drip7.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\drip8.png",
+      "PackagePath": "staticwebassets\\drip8.png"
+    },
+    {
       "Id": "C:\\Users\\user\\Internship\\github\\Internship-Website\\app\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
