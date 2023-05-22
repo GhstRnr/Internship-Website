@@ -26,18 +26,10 @@
 
 </div>
 @code {
-    private bool showthis=false;
-    private string? searchTerm;
     private List<SearchResult>? searchResults;
-    private List<string>? categories;
 
     private static HttpClient hc=new ();
     private static string  url="https://crust.azurewebsites.net/api/newprod?code=dacGBIeI_DNZTdlqfaRVXdEtkEWKgGIcAZoNqtO3YynuAzFuA0S-lQ==";
-    private static string  cat_url="https://crust.azurewebsites.net/api/categories?code=e9t2U6jRjIf0RgHvxHyjc7MpplZ3cxCjphoXs_0DaavqAzFuCDOTgg==";
-
-    private 
-    
-    bool showTitle = false;
 
     protected async override void OnInitialized()  {
         //hc.DefaultRequestHeaders.Add("X-Functions-Key", "e9t2U6jRjIf0RgHvxHyjc7MpplZ3cxCjphoXs_0DaavqAzFuCDOTgg==");
@@ -55,23 +47,5 @@
 //                Console.WriteLine ( s.title );
 //            }
         }
-
-        request = new HttpRequestMessage(HttpMethod.Get, new Uri(cat_url));
-
-        response =  hc.Send(request);
-        
-        if (response.IsSuccessStatusCode) {
-            var content = await response.Content.ReadAsByteArrayAsync();
-
-            string contentS = System.Text.Encoding.Default.GetString(content);
-
-            categories = JsonSerializer.Deserialize<List<string>>(contentS);
-
-//            foreach ( var s in categories ?? Enumerable.Empty<string>()) {
-//                Console.WriteLine ( s );
-//            }
-        }
-
-
     }
 }
