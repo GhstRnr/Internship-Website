@@ -52,6 +52,8 @@
 @code {
     private bool collapseNavMenu = true;
     private List<string>? categories;
+    private static HttpClient hc=new ();
+    private static string  cat_url="https://crust.azurewebsites.net/api/categories?code=e9t2U6jRjIf0RgHvxHyjc7MpplZ3cxCjphoXs_0DaavqAzFuCDOTgg==";
 
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : "expanded";
 
@@ -60,21 +62,17 @@
         collapseNavMenu = !collapseNavMenu;
     }
 
+    protected async override void OnInitialized()  {
+        var request = new HttpRequestMessage(HttpMethod.Get, new Uri(cat_url));
 
-    private async void Searchit()
-    {
-        HttpClient client = new();
-        string  url=$"https://crust.azurewebsites.net/api/categories";
-
-        client.DefaultRequestHeaders.Add("X-Functions-Key", "QsoctEMKv4g7iHTxhGsRNTxHKeP_NKv3QHeFIyZOki8FAzFu2hJtLA==");
-        var request = new HttpRequestMessage(HttpMethod.Get, new Uri(url));
-
-        var response =  client.Send(request);        
+        var response =  hc.Send(request);
+        
         if (response.IsSuccessStatusCode) {
             var content = await response.Content.ReadAsByteArrayAsync();
 
             string contentS = System.Text.Encoding.Default.GetString(content);
-            categories = JsonSerializer.Deserialize<List<String>>(contentS);
+            categories = JsonSerializer.Deserialize<List<string>>(contentS);
+
         }
     }
 }
