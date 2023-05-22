@@ -1,24 +1,77 @@
 ﻿@page "/"
+@using app.Data
+@using System.Net.Http;
+@using System.Text.Json;
 
 <PageTitle>Index</PageTitle>
 <div class="welcomeimg"></div>
 
+<div class="newProds">
+        @if (searchResults != null && searchResults.Any())
+    {
+      int i=0;
+      @foreach (var result in searchResults)
+      {
+        i++;
+
+        <div id="Result-@i" class="bar">
+          <img src="@result.thumbnail" height="200px"> 
+          <div class="jeb">
+            <p onclick="test1('result-@i')">@result.title</p>
+            <p>@result.price</p>
+          </div>
+        </div> 
+      }
+    }
+
+</div>
 @code {
     private bool showthis=false;
     private string? searchTerm;
-    private List<string>? searchResults;
+    private List<SearchResult>? searchResults;
+    private List<string>? categories;
+
+    private static HttpClient hc=new ();
+    private static string  url="https://crust.azurewebsites.net/api/newprod?code=dacGBIeI_DNZTdlqfaRVXdEtkEWKgGIcAZoNqtO3YynuAzFuA0S-lQ==";
+    private static string  cat_url="https://crust.azurewebsites.net/api/categories?code=e9t2U6jRjIf0RgHvxHyjc7MpplZ3cxCjphoXs_0DaavqAzFuCDOTgg==";
 
     private 
     
     bool showTitle = false;
-    private void Search()
-    {
-        // Do the search here, and populate the searchResults list
-        searchResults = new List<string>()
-        {
-            "Result 1",
-            "Result 2",
-            "Result 3"
-        };
+
+    protected async override void OnInitialized()  {
+        //hc.DefaultRequestHeaders.Add("X-Functions-Key", "e9t2U6jRjIf0RgHvxHyjc7MpplZ3cxCjphoXs_0DaavqAzFuCDOTgg==");
+        var request = new HttpRequestMessage(HttpMethod.Get, new Uri(url));
+
+        var response =  hc.Send(request);
+        
+        if (response.IsSuccessStatusCode) {
+            var content = await response.Content.ReadAsByteArrayAsync();
+
+            string contentS = System.Text.Encoding.Default.GetString(content);
+            searchResults = JsonSerializer.Deserialize<List<SearchResult>>(contentS);
+
+//            foreach ( var s in searchResults ?? Enumerable.Empty<SearchResult>()) {
+//                Console.WriteLine ( s.title );
+//            }
+        }
+
+        request = new HttpRequestMessage(HttpMethod.Get, new Uri(cat_url));
+
+        response =  hc.Send(request);
+        
+        if (response.IsSuccessStatusCode) {
+            var content = await response.Content.ReadAsByteArrayAsync();
+
+            string contentS = System.Text.Encoding.Default.GetString(content);
+
+            categories = JsonSerializer.Deserialize<List<string>>(contentS);
+
+//            foreach ( var s in categories ?? Enumerable.Empty<string>()) {
+//                Console.WriteLine ( s );
+//            }
+        }
+
+
     }
 }
