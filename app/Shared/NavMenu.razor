@@ -1,7 +1,7 @@
 ﻿@using System.Net.Http;
 @using System.Text.Json;
 
-<div class="top-row ps-3 navbar navbar-dark">
+<div class="top-row ps-3 luknavbar ">
     <img height="48" src= "https://lvminternshipwebsite.blob.core.windows.net/img/3LineIcon.png" @onclick="ToggleNavMenu"/>
     <nav class="luk-item" >
         <div>
@@ -31,7 +31,6 @@
         </div>
     </nav>
     <div class="container-fluid">
-        <a class="navbar-brand" href="">app</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -40,6 +39,7 @@
 
 <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
  <img src="drip4.png" />
+
 </div>
 
 @code {

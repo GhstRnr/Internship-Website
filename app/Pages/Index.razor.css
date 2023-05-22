@@ -11,8 +11,8 @@ justify-content:center;
 .welcomeimg {
     background-image: url("https://lvminternshipwebsite.blob.core.windows.net/img/posterVA.png");
     background-repeat: no-repeat;
-    background-size: cover; /* or contain, or specific values */
-    height: 650px
+    background-size: contain; /* or contain, or specific values */
+    height: 365px
 }
       
 .container {

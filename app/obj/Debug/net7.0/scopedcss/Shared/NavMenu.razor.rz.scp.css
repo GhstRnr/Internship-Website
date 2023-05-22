@@ -4,7 +4,7 @@
 
 .top-row[b-vl3c23brav] {
     height: 3.5rem;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgb(rgb(#353535));
 }
 
 .navbar-brand[b-vl3c23brav] {
@@ -51,20 +51,32 @@
     }
 
 .nav-item[b-vl3c23brav]  a.active {
-    background-color: rgba(255,255,255,0.25);
+    background-color: rgb(#353535);
     color: white;
 }
 
 .nav-item[b-vl3c23brav]  a:hover {
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgb(#a5a5a5);
     color: white;
 }
 
 .expanded[b-vl3c23brav] {
     position: absolute;
-    left: 190px;
-    top: 54px;
+    z-index: -5;
+    left: 0px;
+    top: 0px;
 }
+
+.luknavbar[b-vl3c23brav] {
+    position: absolute;
+    display: flex;
+    left: 0px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    }
 
 @media (min-width: 641px) {
     .navbar-toggler[b-vl3c23brav] {

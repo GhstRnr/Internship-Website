@@ -12,8 +12,8 @@ justify-content:center;
 .welcomeimg[b-1jlyl90bcz] {
     background-image: url("https://lvminternshipwebsite.blob.core.windows.net/img/posterVA.png");
     background-repeat: no-repeat;
-    background-size: cover; /* or contain, or specific values */
-    height: 650px
+    background-size: contain; /* or contain, or specific values */
+    height: 365px
 }
       
 .container[b-1jlyl90bcz] {
@@ -80,7 +80,7 @@ main[b-14g41q3j72] {
 }
 
 .sidebar[b-14g41q3j72] {
-    background-image: linear-gradient(180deg, rgb(39, 115, 255) 0%, #e58918 70%);
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.4) 0%, #353535 70%);
 }
 
 .top-row[b-14g41q3j72] {
@@ -128,6 +128,8 @@ main[b-14g41q3j72] {
         top: 0;
     }
 
+   
+
     .top-row[b-14g41q3j72] {
         position: sticky;
         top: 0;
@@ -141,7 +143,7 @@ main[b-14g41q3j72] {
 }
 /* _content/app/Shared/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-vl3c23brav] {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgb(#a5a5a5);
 }
 
 .top-row[b-vl3c23brav] {
@@ -198,15 +200,27 @@ main[b-14g41q3j72] {
 }
 
 .nav-item[b-vl3c23brav]  a:hover {
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgb(#a5a5a5);
     color: white;
 }
 
 .expanded[b-vl3c23brav] {
     position: absolute;
-    left: 190px;
-    top: 54px;
+    z-index: -5;
+    left: 0px;
+    top: 0px;
 }
+
+.luknavbar[b-vl3c23brav] {
+    position: absolute;
+    display: flex;
+    left: 0px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    }
 
 @media (min-width: 641px) {
     .navbar-toggler[b-vl3c23brav] {

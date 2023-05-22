@@ -56,15 +56,27 @@
 }
 
 .nav-item ::deep a:hover {
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgb(#a5a5a5);
     color: white;
 }
 
 .expanded {
     position: absolute;
-    left: 190px;
-    top: 54px;
+    z-index: -5;
+    left: 0px;
+    top: 0px;
 }
+
+.luknavbar {
+    position: absolute;
+    display: flex;
+    left: 0px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    }
 
 @media (min-width: 641px) {
     .navbar-toggler {
