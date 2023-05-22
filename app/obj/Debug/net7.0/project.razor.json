@@ -124,43 +124,6 @@
         }
       },
       {
-        "HashCode": -29373083,
-        "Kind": "Components.Component",
-        "Name": "app.Pages.Index",
-        "AssemblyName": "app",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "app.Pages.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "app.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1518979118,
-        "Kind": "Components.Component",
-        "Name": "app.Pages.Index",
-        "AssemblyName": "app",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "app.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "app.Pages.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "app.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": -448813876,
         "Kind": "Components.Component",
         "Name": "app.Pages.Search",
@@ -192,6 +155,43 @@
         "Metadata": {
           "Common.TypeName": "app.Pages.Search",
           "Common.TypeNameIdentifier": "Search",
+          "Common.TypeNamespace": "app.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -29373083,
+        "Kind": "Components.Component",
+        "Name": "app.Pages.Index",
+        "AssemblyName": "app",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "app.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "app.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1518979118,
+        "Kind": "Components.Component",
+        "Name": "app.Pages.Index",
+        "AssemblyName": "app",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "app.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "app.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
           "Common.TypeNamespace": "app.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -235,59 +235,37 @@
         }
       },
       {
-        "HashCode": 1124755575,
+        "HashCode": -2081334498,
         "Kind": "Components.Component",
-        "Name": "app.Shared.SurveyPrompt",
+        "Name": "app.Shared.NavMenu",
         "AssemblyName": "app",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "app.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeName": "app.Shared.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
           "Common.TypeNamespace": "app.Shared",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 2116673226,
+        "HashCode": 42290062,
         "Kind": "Components.Component",
-        "Name": "app.Shared.SurveyPrompt",
+        "Name": "app.Shared.NavMenu",
         "AssemblyName": "app",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "app.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
+            "TagName": "app.Shared.NavMenu"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "app.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeName": "app.Shared.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
           "Common.TypeNamespace": "app.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -400,37 +378,59 @@
         }
       },
       {
-        "HashCode": -2081334498,
+        "HashCode": 1124755575,
         "Kind": "Components.Component",
-        "Name": "app.Shared.NavMenu",
+        "Name": "app.Shared.SurveyPrompt",
         "AssemblyName": "app",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
           }
         ],
         "Metadata": {
-          "Common.TypeName": "app.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeName": "app.Shared.SurveyPrompt",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
           "Common.TypeNamespace": "app.Shared",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 42290062,
+        "HashCode": 2116673226,
         "Kind": "Components.Component",
-        "Name": "app.Shared.NavMenu",
+        "Name": "app.Shared.SurveyPrompt",
         "AssemblyName": "app",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "app.Shared.NavMenu"
+            "TagName": "app.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
           }
         ],
         "Metadata": {
-          "Common.TypeName": "app.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeName": "app.Shared.SurveyPrompt",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
           "Common.TypeNamespace": "app.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"

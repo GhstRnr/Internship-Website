@@ -9,9 +9,10 @@ justify-content:center;
 }
 
 .welcomeimg[b-1jlyl90bcz] {
-    background-image: url("https://lvminternshipwebsite.blob.core.windows.net/img/posterVA.png");
-    background-repeat: no-repeat;
-    background-size: contain; /* or contain, or specific values */
+    background-image: url("https://lvminternshipwebsite.blob.core.windows.net/img/VAposter2.0.png");
+    background-repeat: repeat;
+    background-size: contain; 
+    border: 4mm ridge gray;
     height: 365px
 }
       
