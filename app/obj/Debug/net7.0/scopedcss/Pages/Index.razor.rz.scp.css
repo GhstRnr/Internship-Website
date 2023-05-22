@@ -16,8 +16,28 @@ justify-content:center;
     height: 365px
 }
       
+.newProds[b-1jlyl90bcz] {
+    margin-top: 50px;
+    border-top: 2mm solid gray;
+    display: flex;
+
+
+
+
+}
+
 .container[b-1jlyl90bcz] {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
+
+.indexBar[b-1jlyl90bcz] {
+    background-color: white;
+    border: 1px solid black;
+    font-size:30px;
+    padding: 30px;
+    margin: 10px;
+    display: flex;
+   }
+   
