@@ -10,7 +10,7 @@ justify-content:center;
 
 .welcomeimg {
     background-image: url("https://lvminternshipwebsite.blob.core.windows.net/img/VAposter2.0.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: contain; 
     border: 4mm ridge gray;
     height: 365px
@@ -24,12 +24,15 @@ justify-content:center;
     width: 1500px;
 }
 
-.price {
 
-display:flex;
-justify-content: flex-end;
+.indexBar title {
+ display:block;
+}
 
-
+.indexBar price{
+    
+    display:flex;
+    justify-content: flex-end;
 }
 
 .container {
@@ -48,8 +51,56 @@ justify-content: flex-end;
     flex-direction: column;
     width: 400px;
    }
-   
+
+
+.indexBar description {
+display: none;
+}
+
+.indexBarHighlight price{
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.indexBarHighlight description {
+    scroll-behavior: auto;
+    margin-top: 60px;
+    width:700px;
+    max-height: 300px;
+    overflow: auto;
+    margin-bottom: 30px;
+    border: 1px solid black;
+}
+
+.indexBarHighlight detail {
+    display: flex;
+    flex-flow: column;
+    margin-left: 170px;
+}
+
+.indexBarHighlight{
+width: 80%;
+top: 20%;
+position: absolute;
+border: 1px solid black;
+left: 200px;
+background-color: white;
+display: flex;
+flex-flow: row;
+}
+
+.indexBarHighlight title {
+    display: block;
+    font-size: 100px;
+
+}
+
 .indexBar img {
     width: fit-content;
     margin: auto;
+}
+
+.indexBarHighlight img{
+    width: 500px;
+    height: auto;
 }

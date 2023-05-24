@@ -9,4 +9,10 @@ public class SearchResult
     public String? description {get; set; }
 
     public String? thumbnail  { get; set; }
+   
+    public String? terms { get; set; }
+   
+    public String? categories { get; set; }
+   
+     public String? fullDesc { get; set; }
 }
