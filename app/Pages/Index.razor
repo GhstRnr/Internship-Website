@@ -13,17 +13,18 @@
       @foreach (var result in searchResults)
       {
         i++;
-        var cl = (i ==1 ) ? "indexBarHighlight" : "indexBar";
+        var cl =  "indexBar"; //(i ==1 ) ? "indexBarHighlight" : "indexBar";
 
-          <div id="Result-@i" class="@cl">
+          <div id="Result-@i" class="@cl" onClick="openO('Result-@i')">
             <img src="@result.thumbnail"> 
               <title>@result.title</title>
               <price >  @result.price</price>
               <description > @result.fullDesc </description>      
-        </div> 
+              <button type="button" class="close" aria-label="Close" onClick="event.stopPropagation(); closeX('Result-@i')" >
+              <span aria-hidden="true">&times;</span> </button>
+          </div> 
       }
     }
-
 </div>
 @code {
     private List<SearchResult>? searchResults;
