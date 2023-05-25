@@ -47,7 +47,75 @@ justify-content:center;
     font-size:30px;
     padding: 30px;
     margin: 10px;
-    display: flex;
+    display: grid;
+    grid-template-rows:[row1] 40px [row2] 200px [row3] 40px;
+    flex-direction: column;
+    width: 400px;
+}
+
+.indexBar img {
+    width: fit-content;
+    margin: auto;
+    height: 200px;
+    grid-row: row2;
+}
+
+.indexBar price{
+    font-size: 40px;
+    grid-row: row3;
+} 
+
+.indexBarHighlight title {
+    display: block;
+    font-size: 50px;
+    grid-row: row1 ;
+    grid-column: col2 / span 2;
+}
+
+.indexBarHighlight {
+    width: 80%;
+    top: 10%;
+    position: absolute;
+    border: 1px solid black;
+    left: 10%;
+    grid-template-rows:[row1] 100px [row2] 80px [row3] auto;
+    grid-template-columns:[col1] 500px [col2] auto [col3] 200px ;
+    background-color: white;
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.indexBarHighlight img{
+    width: 500px;
+    height: auto;
+    grid-column: col1;
+    grid-row: row1 / span 3;
+}
+.indexBarHighlight price{
+    grid-row: row2 ;
+    grid-column: col2 ;
+    font-size: 50px;
+}
+
+.indexBarHighlight description {
+    scroll-behavior: auto;
+    grid-row: row3;
+    grid-column: col2 / span 2;
+    max-height: 300px;
+    overflow: auto;
+    border: 1px solid black;
+}
+
+/*
+.indexBar {
+    background-color: white;
+    border: 1px solid black;
+    font-size:30px;
+    padding: 30px;
+    margin: 10px;
+    display: grid;
+    grid-template-rows:[row1] 40px [row2] 200px [row3] 40px;
     flex-direction: column;
     width: 400px;
    }
@@ -57,20 +125,9 @@ justify-content:center;
 display: none;
 }
 
-.indexBarHighlight price{
-    font-size: 40px;
-    margin-top: 30px;
-}
 
-.indexBarHighlight description {
-    scroll-behavior: auto;
-    margin-top: 60px;
-    width:700px;
-    max-height: 300px;
-    overflow: auto;
-    margin-bottom: 30px;
-    border: 1px solid black;
-}
+
+
 
 .indexBarHighlight detail {
     display: flex;
@@ -79,28 +136,15 @@ display: none;
 }
 
 .indexBarHighlight{
-width: 80%;
-top: 20%;
-position: absolute;
-border: 1px solid black;
-left: 200px;
-background-color: white;
-display: flex;
-flex-flow: row;
-}
-
-.indexBarHighlight title {
-    display: block;
-    font-size: 100px;
 
 }
+
+
 
 .indexBar img {
     width: fit-content;
     margin: auto;
 }
 
-.indexBarHighlight img{
-    width: 500px;
-    height: auto;
-}
+
+*/

@@ -13,27 +13,14 @@
       @foreach (var result in searchResults)
       {
         i++;
-        var cl = "indexBar";
-        if (i ==1 ) {
-          cl=  "indexBarHighlight" ;
+        var cl = (i ==1 ) ? "indexBarHighlight" : "indexBar";
+
           <div id="Result-@i" class="@cl">
-            <img src="@result.thumbnail" height="200px"> 
-            <detail>
+            <img src="@result.thumbnail"> 
               <title>@result.title</title>
               <price >  @result.price</price>
               <description > @result.fullDesc </description>      
-            </detail>    
         </div> 
-
-        } else {
-          cl= "indexBar" ;
-          <div id="Result-@i" class="@cl">
-            <title>@result.title</title>
-            <img src="@result.thumbnail" height="200px"> 
-            <price >  @result.price</price>
-            <description > @result.fullDesc </description>          
-        </div> 
-        }
       }
     }
 
