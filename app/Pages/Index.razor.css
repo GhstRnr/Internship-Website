@@ -58,8 +58,8 @@ justify-content:center;
  }
 .indexBar description {
 display: none;
-
 }
+
 .indexBar img {
     width: fit-content;
     margin: auto;
@@ -122,45 +122,3 @@ align-self: start;
     overflow: auto;
     border: 1px solid black;
 }
-
-/*
-.indexBar {
-    background-color: white;
-    border: 1px solid black;
-    font-size:30px;
-    padding: 30px;
-    margin: 10px;
-    display: grid;
-    grid-template-rows:[row1] 40px [row2] 200px [row3] 40px;
-    flex-direction: column;
-    width: 400px;
-   }
-
-
-.indexBar description {
-display: none;
-}
-
-
-
-
-
-.indexBarHighlight detail {
-    display: flex;
-    flex-flow: column;
-    margin-left: 170px;
-}
-
-.indexBarHighlight{
-
-}
-
-
-
-.indexBar img {
-    width: fit-content;
-    margin: auto;
-}
-
-
-*/
