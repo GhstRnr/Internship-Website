@@ -11,7 +11,7 @@ function closeX(x){
 
 function openO(x){
     if (mre !=null) {
-        close (mre)
+        closeX (mre)
     }
     const openO = document.getElementById(x);
     
